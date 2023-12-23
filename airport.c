@@ -34,6 +34,8 @@ int main () {
             PrintAirport(stations+i);
     }
 
+    free(stations);
+
     return 0;
 }
 
